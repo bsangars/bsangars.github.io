@@ -1,23 +1,34 @@
-# bsangars.github.io
+# Bhargav Sangars — Architecture portfolio
 
-Personal resume website for Bhargav Sangars.
+Static GitHub Pages portfolio for lead data engineering, forward-deployed engineering, and software engineering roles.
 
-## Publish with GitHub Pages
+## Pages
 
-1. Create or open the GitHub repository named exactly `bsangars.github.io`.
-2. Upload `index.html`, `styles.css`, and `script.js` to the repository root.
-3. Commit the files to the default branch.
-4. In GitHub, open **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select the default branch and `/ (root)`.
-7. Save.
+- `index.html`: title, value proposition, career metrics, DataVertex live app preview, and three architecture case studies.
+- `data-platform.html`: resume-based platform work with an illustrative architecture and dimensional model.
+- `pipeline-observability.html`: resume-based API and monitoring work, plus illustrative architecture and data model.
+- `mcp-platform.html`: public repository architecture and source links; proposed trace model is explicitly labeled.
+- `leadership.html`: documented modernization, governance, performance, cost visibility, and mentoring experience.
 
-The site will be available at:
+## Preview
 
-`https://bsangars.github.io`
+Run `python3 -m http.server 8000` in this directory. No build step or third-party JavaScript is required.
 
-## Customize
+## Content boundaries
 
-- Add LinkedIn/GitHub links in `index.html` when ready.
-- Add a downloadable PDF resume by placing a PDF in the repo and linking it from the hero section.
-- Edit colors and spacing in `styles.css`.
+The Word resume supplies employment facts and metrics. The MCP case references https://github.com/bsangars/mcp. Architecture diagrams synthesizing employer experience and illustrative schemas are clearly labeled; they are not internal artifacts. Do not invent throughput, latency, cloud savings, or direct-report counts.
+
+Professional portrait and exact LinkedIn URL are pending user input. The homepage uses a monogram until an actual portrait is provided; no fabricated photo or profile link is used.
+
+## Assets
+
+- `Bhargav-Sangars-Resume.docx`: supplied Word resume.
+- `assets/*.svg`: original architecture diagrams, including vertical mobile versions.
+- `assets/datavertex-preview.webp`: screenshot of the live DataVertex app, linked to https://datavertex.onrender.com/.
+- `assets/icons/`: technology icons from https://github.com/simple-icons/simple-icons (CC0); see their project for trademark guidance.
+- `social-preview.png`: sharing preview.
+- `styles.css`, `script.js`: responsive styles and progressively enhanced mobile navigation.
+
+## Publication
+
+GitHub Pages publishes from `main` at the repository root.
