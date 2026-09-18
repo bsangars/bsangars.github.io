@@ -385,3 +385,17 @@ footer>.container{
   .impact strong{font-size:32px}
   .live-project h2{font-size:28px}
 }
+
+/* Profile photo (staff-engineer polish override) */
+.profile-photo{
+  width:240px;height:240px;
+  object-fit:cover;
+  object-position:70% 38%;
+  border-radius:10px;
+  box-shadow:var(--shadow-md);
+  display:block;
+  transition:transform .3s ease,box-shadow .3s ease;
+}
+.profile-photo:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(15,33,25,.14),0 4px 8px rgba(15,33,25,.06)}
+@media(max-width:760px){.profile-photo{width:150px;height:160px;border-radius:8px}}
+@media(max-width:520px){.profile-photo{width:82px;height:88px;border-radius:6px}}
