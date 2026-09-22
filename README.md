@@ -18,11 +18,11 @@ Run `python3 -m http.server 8000` in this directory. No build step or third-part
 
 The Word resume supplies employment facts and metrics. The MCP case references https://github.com/bsangars/mcp. Architecture diagrams synthesizing employer experience and illustrative schemas are clearly labeled; they are not internal artifacts. Do not invent throughput, latency, cloud savings, or direct-report counts.
 
-Professional portrait and exact LinkedIn URL are pending user input. The homepage uses a monogram until an actual portrait is provided; no fabricated photo or profile link is used.
+The homepage uses the supplied professional portrait. The exact LinkedIn URL is pending user input; no fabricated profile link is used.
 
 ## Assets
 
-- `Bhargav-Sangars-Resume.docx`: supplied Word resume.
+- `Bhargav-Sangars-Resume.docx`: exact copy of the latest supplied `BhargavSangars-resume.docx` (September 2026); all download links use this stable path.
 - `assets/*.svg`: original architecture diagrams, including vertical mobile versions.
 - `assets/datavertex-preview.webp`: screenshot of the live DataVertex app, linked to https://datavertex.onrender.com/.
 - `assets/icons/`: technology icons from https://github.com/simple-icons/simple-icons (CC0); see their project for trademark guidance.
