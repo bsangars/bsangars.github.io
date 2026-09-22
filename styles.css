@@ -136,7 +136,7 @@ h1{font-size:clamp(48px,6vw,80px);margin:22px 0 26px}
 .expertise{padding-block:78px 66px}
 .expertise-grid{
   display:grid;
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns:repeat(3,1fr);
   gap:18px;
   margin-top:14px;
 }
